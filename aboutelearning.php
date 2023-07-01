@@ -21,9 +21,9 @@
 </div>
 
 <div id="text">
-<b>Welcome to E-Learning</b>
-<p>This website is for the students of DKTE. Students can view the assignments and notices posted by their teachers. But they have to sign up first. During registration they will be asked for a user anme and a password. They can use that user name and password to view the assignments and notices. They can edit their profile if they want to make changes in future. They will also be able to change their password.</p>
-<p>In case he\she forgets his\her password then he\she can directly contact his\her teacher.</p>
+<b>Welcome to EduTech</b>
+<p>Lorem Ipsum Lores Dolores.</p>
+<p>HIHIHIHIHIHIHI.</p>
 </div>
 
 <div id="line">
