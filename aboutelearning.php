@@ -17,12 +17,12 @@
 <?php include ("includes/main_menu.php"); ?>
 
 <div id="mid">
-	<img src="images/amikom.jpg"/>
+	<img src="images/Ichalkarnji.jpg"/>
 </div>
 
 <div id="text">
 <b>Welcome to EduTech</b>
-<p>Lorem Ipsum Lores Dolores.</p>
+<p>blablabla.</p>
 <p>HIHIHIHIHIHIHI.</p>
 </div>
 

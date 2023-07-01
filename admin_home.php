@@ -19,7 +19,7 @@
 <?php include ("includes/admin_main_menu.php"); ?>
 
 
-<div id="mid"> <img src="images/amikom.jpg"/> </div>
+<div id="mid"> <img src="images/Ichalkarnji.jpg"/> </div>
 <div id="text">
   <p>Hi!</p>
   <p>You have to add departments first. After adding departments you can register the facultys and provide them with a user name and a password. You can add, edit, view, delete the departments, students and the facultys whenever needed.</p>

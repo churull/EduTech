@@ -46,7 +46,7 @@ function initialize() {
 <?php include ("includes/main_menu.php"); ?>
 
 <div id="mid">
-  <img src="images/amikom.jpg"/>
+  <img src="images/Ichalkarnji.jpg"/>
 </div>
 
 <div id="text">

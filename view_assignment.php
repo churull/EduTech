@@ -34,7 +34,7 @@
 			<td>
 			<select name="branch">
 				<?php
-					include "dbconnection.php";
+					include "connection.php";
 					$query = "SELECT * FROM department";
 					$result =  mysqli_query($con, $query) or die();
 					while($row = mysqli_fetch_array($result))
@@ -72,7 +72,7 @@
 <div>
 	<table>
 				<?php
-				include "dbconnection.php";
+				include "connection.php";
 				if(!empty($_POST['branch']) && !empty($_POST['class']))
 				{
 					$query = "SELECT * FROM assignment WHERE branch='" . $_POST['branch'] . "' AND class='" . $_POST['class'] . "'";

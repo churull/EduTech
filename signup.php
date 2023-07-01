@@ -53,17 +53,13 @@
 			<td>Parents Name: </td>
 			<td><input type="text" name="parents_name" size="50"/></td>
 		</tr>
-		<tr>
-			<td>Parents Contact No.: </td>
-			<td><input type="text" name="parents_contact_no" /></td>
-		</tr>
 		
 		<tr>
 			<td>Branch: </td>
 			<td>
 			<select name="branch">
 				<?php
-					include "dbconnection.php";
+					include "connection.php";
 					$query = "SELECT * FROM department";
 					$result =  mysqli_query($con, $query) or die();
 					while($row = mysqli_fetch_array($result))
@@ -125,7 +121,7 @@
 </div>
 
 <?php
-	include "dbconnection.php";
+	include "connection.php";
 	$query = "SELECT * FROM student";
 	$result =  mysqli_query($con, $query) or die();
 	$f = 0;

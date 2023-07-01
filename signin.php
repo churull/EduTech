@@ -33,11 +33,11 @@
 	<form id='login' action='signin.php' method='post' accept-charset='UTF-8'>
 	<table>
 		<tr>
-			<td><span class="style1">User Name* :</span> </td>
+			<td><span class="style1">Username:</span> </td>
 			<td><input type='text' name='user_name' id='username'  maxlength="50" /></td>
 		</tr>
 		<tr>
-			<td><span class="style1">Password* :  </span></td>
+			<td><span class="style1">Password:  </span></td>
 			<td><input type='password' name='password' id='password' maxlength="50" /></td>
 		</tr>
 		<tr>
@@ -48,7 +48,7 @@
 	</div>
 	
 	<?php
-	include "dbconnection.php";
+	include "connection.php";
 	if($_POST)
 	{
 		if(!empty($_POST['user_name']) && !empty($_POST['password']))
@@ -76,7 +76,7 @@
 				if($f == 0)
 				{
 					$f = 0;
-					echo '<html><head><script type="text/javascript">alert("User Name does not esist!!!");</script></head></html>';
+					echo '<html><head><script type="text/javascript">alert("Username does not esist!!!");</script></head></html>';
 				}
 				}
 			}
@@ -110,7 +110,7 @@
 		}
 		else
 		{
-			echo '<html><head><script type="text/javascript">alert("Enter User Name and Password!!!");</script></head></html>';
+			echo '<html><head><script type="text/javascript">alert("Enter Username and Password!!!");</script></head></html>';
 		}
 	}
 ?>
